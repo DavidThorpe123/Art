@@ -25,7 +25,7 @@ FileWriter fww;
 PrintWriter pw;
 ArtMain() {
 	try {
-		 pw = new PrintWriter(fww = new FileWriter("ascii.txt"));
+		 pw = new PrintWriter(fww = new FileWriter("ascii.txt", true));
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
